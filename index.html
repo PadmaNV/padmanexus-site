@@ -1,37 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Padma Nexus</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Padma Nexus</title>
+
+<style>
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 40px;
+    color: #38bdf8;
+}
+
+p {
+    color: #94a3b8;
+    line-height: 1.6;
+}
+
+.hero {
+    margin-top: 80px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact {
+    margin-top: 40px;
+    padding: 20px;
+    background: #1e293b;
+    border-radius: 10px;
+}
+</style>
+
 </head>
 
-<body style="font-family: Arial; max-width: 800px; margin: auto; padding: 20px;">
+<body>
 
+<div class="container">
+
+<div class="hero">
 <h1>Padma Nexus s.r.o.</h1>
-
 <p><b>IT, Data Processing & Business Consulting</b></p>
-
-<p>Padma Nexus s.r.o. is a Slovakia-based company providing IT services, data processing, and business consulting for small and medium-sized enterprises.</p>
+<p>We help businesses optimize processes, structure data, and implement digital solutions.</p>
+</div>
 
 <h2>Services</h2>
-<ul>
-<li>Business Process Analysis</li>
-<li>CRM Implementation</li>
-<li>Data Processing & Structuring</li>
-<li>UI/UX & Web Design</li>
-<li>Business Consulting</li>
-</ul>
+
+<div class="services">
+<div class="card">Business Process Analysis</div>
+<div class="card">CRM Implementation</div>
+<div class="card">Data Processing & Structuring</div>
+<div class="card">UI/UX & Web Design</div>
+<div class="card">Business Consulting</div>
+</div>
 
 <h2>Contact</h2>
+
+<div class="contact">
 <p>Email: info@padmanexus.com</p>
 <p>Location: Bratislava, Slovakia</p>
-
-<hr>
+</div>
 
 <h2>Slovenská verzia</h2>
 
-<p>Padma Nexus s.r.o. je spoločnosť poskytujúca IT služby, spracovanie dát a podnikateľské poradenstvo pre malé a stredné podniky.</p>
+<p>Padma Nexus s.r.o. poskytuje IT služby, spracovanie dát a podnikateľské poradenstvo pre malé a stredné podniky.</p>
+
+</div>
 
 </body>
 </html>
